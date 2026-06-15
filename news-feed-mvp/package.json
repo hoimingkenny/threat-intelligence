@@ -1,0 +1,16 @@
+{
+  "name": "news-feed-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal RSS news-feed fetcher extracted from the AI threat intelligence bulletin project.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "scan": "node src/index.js",
+    "watch": "node src/index.js --watch",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
